@@ -9,15 +9,67 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />     
     <title>Student Managment System App</title>
   </head>
   <body>
+    <header class="sticky-top" style="max-height:210px;">
+      <nav class="navbar navbar-dark " style="background-color:#569ae2">
+          <div class="col">
+              <div class="row d-flex">
+                  <div class="col-3">
+                      <a class="navbar-brand" asp-action="Index" asp-controller="Home">
+                      <Button variant= "contained"><img src='http://localhost:3000/img1.png'class="card-img-topce" width="200" height="120"  ></img></Button>
+                      </a>
+                  </div>
+                  <div class="col-4 d-inline-flex align-content-center"><h5 class="text-uppercase text-light text-center align-content-center pt-4">Student Managment System<br />For the First Trial of Joy<br />From Yoseph at DANENERGY R&D</h5></div>
+                  <div class="col-5 mt-0 ml-auto pt-0">
+                    <Button variant="contained"><img src='http://localhost:3000/img2.png' class="card-img-topce" width="300" height="120"  ></img></Button>
+                  </div>
+              </div>
+             
+          </div>
+      </nav>      
+  </header>
+  <main role="main">
     <noscript>this is my first trial in github!!!</noscript>
     <div id="root"></div>
+</main>
     
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+          <div class="row bg-dark">
+              <hr class="clearfix w-100 d-md-none pb-3">
+              <div class="col-md-3 mb-md-0 mb-3 mt-4">
+                <h5 class="text-uppercase text-light"></h5>
+            </div>
+               <div  class="align-content-center col-md-3 mb-md-0 mb-3 mt-4 ">
+                  <h5 class="text-uppercase text-light ">Contact me:</h5>
+
+                  <ul class="list-unstyled">
+                      <li>
+                          <span class="text-light"><i class="fa fa-phone"></i> Tel: +251-580000000</span>
+                      </li>
+                      <li>
+                          <span class="text-light"><i class="fa fa-fax"></i> Fax: +251-580000000</span>
+                      </li>
+                      <li>
+                          <span class="text-light"><i class="fa fa-envelope"></i> PoB: 00006</span>
+                      </li>
+                      <li>
+                          <span class="text-light"><i class="fa fa-mail-bulk"></i> E-mail : yosephmarie716@gmail.com</span>
+                      </li>
+                  </ul>
+
+              </div>
+          </div>
+      </div>
+      <div class="footer-copyright text-center py-3 bg-light">
+          copyright &copy; {{currentdate('Y')}} Yoseph Marie.
+      </div>
+  </footer>
   </body>
 </html>

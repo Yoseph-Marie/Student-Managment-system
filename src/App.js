@@ -2,19 +2,16 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import './Style.css';
-import LogoComponent from './Components/LogoComponent';
 import HomeComponent from './Components/HomeComponent';
 import BodyComponent from './Components/BodyComponent';
 import AboutComponent from './Components/AboutComponent';
 import HistoryComponent from './Components/HistoryComponent';
-import FooterComponent from './Components/FooterComponent';
 import NavComponent from './Components/NavComponent';
 import LogInComponent from './Components/LogInComponent';
 
 function App() {
   return (
     <div className='center' >
-      <LogoComponent></LogoComponent>
       <NavComponent></NavComponent>
       
       <BrowserRouter>
@@ -27,8 +24,7 @@ function App() {
              
 
       </Routes>
-    </BrowserRouter>
-    <FooterComponent></FooterComponent>
+    </BrowserRouter>    
     </div>
     
   );

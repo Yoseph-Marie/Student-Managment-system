@@ -11,7 +11,7 @@ class NavComponent extends React.Component {
             <div className='navn'> 
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-                <a class="navbar-brand" ><Button variant="contained"><img src='http://localhost:3000/img2.png' height={50} width={50} ></img></Button></a>
+                <a class="navbar-brand" ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>

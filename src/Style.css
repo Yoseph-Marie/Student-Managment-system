@@ -6,17 +6,17 @@
     color: white;
 }
 .bodyheight{
-    min-height: 200px;
-    max-height: 300px;
+    min-height: auto;
+    max-height: auto;
 }
 .bodyfont{
-    color: rgb(128, 4, 244);
+    color: rgb(76, 4, 244);
 }
 .center {
     margin: auto;
     width: auto;
     border: #666;
-    padding: 5px;
+    padding: 0px;
   }
   .logo {
     background-color: #666;
@@ -28,6 +28,6 @@
   .nav {
     margin: auto;
     width: 100%;
-    border: 10px solid rgb(56, 238, 10);
-    padding: 5px;
+    border: 0px solid rgb(56, 238, 10);
+    padding: 0px;
   }

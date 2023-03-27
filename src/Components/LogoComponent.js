@@ -8,7 +8,7 @@ class LogoComponent extends React.Component {
     render() {
         return (
             <div className='logo'>
-                <Button variant="contained"><img src='http://localhost:3000/img1.png'></img></Button>
+                
                 <h2>Logo</h2>
                 <hr></hr>
                

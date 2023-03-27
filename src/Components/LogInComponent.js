@@ -10,18 +10,17 @@ class LogInComponent extends React.Component {
         return (
             <div className='cover'>
                 <h1>Login</h1>
-                <form>
+                <div class="col-4 d-inline-flex align-content-center">
+                 <form>
                     <label for='username'>Enter your user name</label>
-                    <input type="text" placeholder="username" />
+                    <Button variant= "contained"><input type="text" placeholder="username" /></Button><br/>
                     <label for='password'>Enter your password</label>
-                    <input type="password" placeholder="password" />
-                    <input className='login-btn' type="submit" value="Login"></input>
+                    <Button variant= "contained"><input type="password" placeholder="password" /></Button><br/>
+                    <Button variant= "contained"> <input className='login-btn' type="submit" value="Login"></input></Button>
                    
                 </form>
+                </div>
                 
-
-                
-
                 <p className='text'>Or login using</p>
 
                 <div className='alt-login'>
